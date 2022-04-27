@@ -204,19 +204,6 @@ Head to Stack Monitoring tab in Kibana to see cluster metrics for all stack comp
 
 ### Via Prometheus Exporters
 If you started Prometheus Exporters using `make monitoring` command. Prometheus Exporters will expose metrics at the following ports.
-
-| **Prometheus Exporter**      | **Port**     | **Recommended Grafana Dashboard**                                         |
-|--------------------------    |----------    |------------------------------------------------  |
-| `elasticsearch-exporter`     | `9114`       | [Elasticsearch by Kristian Jensen](https://grafana.com/grafana/dashboards/4358)                                                |
-| `logstash-exporter`          | `9304`       | [logstash-monitoring by dpavlos](https://github.com/dpavlos/logstash-monitoring)                                               |
+ 
 
 
-
-
-# License
-[MIT License](https://raw.githubusercontent.com/sherifabdlnaby/elastdocker/master/LICENSE)
-Copyright (c) 2020 Sherif Abdel-Naby
-
-# Contribution
-
-PR(s) are Open and Welcomed.
