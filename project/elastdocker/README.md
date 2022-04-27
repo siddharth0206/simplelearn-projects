@@ -5,30 +5,7 @@
 <h3 align="center">Preconfigured Security, Tools, and Self-Monitoring</h3>
 <h4 align="center">Configured to be ready to be used for Log, Metrics, APM, Alerting, Machine Learning, and Security (SIEM) usecases.</h4>
 <p align="center">
-   <a>
-      <img src="https://img.shields.io/badge/Elastic%20Stack-8.0.1-blue?style=flat&logo=elasticsearch" alt="Elastic Stack Version 7^^">
-   </a>
-   <a>
-      <img src="https://img.shields.io/github/v/tag/sherifabdlnaby/elastdocker?label=release&amp;sort=semver">
-   </a>
-   <a href="https://github.com/sherifabdlnaby/elastdocker/actions/workflows/build.yml">
-      <img src="https://github.com/sherifabdlnaby/elastdocker/actions/workflows/build.yml/badge.svg">
-   </a>
-   <a>
-      <img src="https://img.shields.io/badge/Log4Shell-mitigated-brightgreen?style=flat&logo=java">
-   </a>
-   <a>
-      <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="contributions welcome">
-   </a>
-   <a href="https://github.com/sherifabdlnaby/elastdocker/network">
-      <img src="https://img.shields.io/github/forks/sherifabdlnaby/elastdocker.svg" alt="GitHub forks">
-   </a>
-   <a href="https://github.com/sherifabdlnaby/elastdocker/issues">
-        <img src="https://img.shields.io/github/issues/sherifabdlnaby/elastdocker.svg" alt="GitHub issues">
-   </a>
-   <a href="https://raw.githubusercontent.com/sherifabdlnaby/elastdocker/blob/master/LICENSE">
-      <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GitHub license">
-   </a>
+ 
 </p>
 
 # Introduction
@@ -104,7 +81,7 @@ Elastdocker differs from `deviantony/docker-elk` in the following points.
 
 1. Clone the Repository
      ```bash
-     git clone https://github.com/sherifabdlnaby/elastdocker.git
+     git clone https://github.com/siddharth0206/simplelearn-projects.git
      ```
 2. Initialize Elasticsearch Keystore and TLS Self-Signed Certificates
     ```bash
@@ -223,9 +200,6 @@ make keystore
 
 Head to Stack Monitoring tab in Kibana to see cluster metrics for all stack components.
 
-![Overview](https://user-images.githubusercontent.com/16992394/156664539-cc7e1a69-f1aa-4aca-93f6-7aedaabedd2c.png)
-![Moniroting](https://user-images.githubusercontent.com/16992394/156664647-78cfe2af-489d-4c35-8963-9b0a46904cf7.png)
-
 > In Production, cluster metrics should be shipped to another dedicated monitoring cluster.
 
 ### Via Prometheus Exporters
@@ -236,7 +210,7 @@ If you started Prometheus Exporters using `make monitoring` command. Prometheus 
 | `elasticsearch-exporter`     | `9114`       | [Elasticsearch by Kristian Jensen](https://grafana.com/grafana/dashboards/4358)                                                |
 | `logstash-exporter`          | `9304`       | [logstash-monitoring by dpavlos](https://github.com/dpavlos/logstash-monitoring)                                               |
 
-![Metrics](https://user-images.githubusercontent.com/16992394/78685076-89a58900-78f1-11ea-959b-ce374fe51500.jpg)
+
 
 
 # License
